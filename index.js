@@ -61,7 +61,7 @@ async function getip() {
           CurrentDomain = ip, Tls = 'none', CurrentPort = PORT;
       } catch (e) {
           console.error('Failed to get IP', e.message);
-          CurrentDomain = 'cahnge-your-domain.com', Tls = 'tls', CurrentPort = 443;
+          CurrentDomain = 'change-your-domain.com', Tls = 'tls', CurrentPort = 443;
       }
   } else {
       CurrentDomain = DOMAIN, Tls = 'tls', CurrentPort = 443;
